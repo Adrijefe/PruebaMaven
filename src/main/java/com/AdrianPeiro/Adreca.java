@@ -7,7 +7,7 @@ public class Adreca {
     private String tipus;
     @JacksonXmlProperty(localName = "carrer")
     private String carrer;
-    @JacksonXmlProperty(localName = "ciutat")
+    @JacksonXmlProperty(localName = "ciudad")
     private String ciutat;
 
     public Adreca() {}

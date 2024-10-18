@@ -14,7 +14,7 @@ public class Persona {
     @JacksonXmlProperty(localName = "nom")
     private String nom;
 
-    @JacksonXmlProperty(localName = "edat")
+    @JacksonXmlProperty(localName = "edad")
     private int edat;
     @JacksonXmlElementWrapper(localName = "adreces")
     @JacksonXmlProperty(localName = "adreca")
